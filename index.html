@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="toggle-btn">&#9776;</button>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Dashboard</h2>
+                <button class="toggle-btn">&#10005;</button>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="menu-item has-dropdown">
+                    <a href="#"><img src="dashboards.png" class="icon">Dashboard <img src="upload.png" class="arrow"></a>
+                    <ul class="dropdown">
+                        <li><a href="#"><p class="lielement">Commerce</p></a></li>
+                        <li><a href="#"><p class="lielement">Analytics</p></a></li>
+                        <li><a href="#"><p class="lielement">Crypto</p></a></li>
+                        <li><a href="#"><p class="lielement">Helpdesk</p></a></li>
+                        <li><a href="#"><p class="lielement">Monitoring</p></a></li>
+                        <li><a href="#"><p class="lielement">Fitness</p></a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-dropdown">
+                    <a href="#"><img src="dashboards.png" class="icon">Application <img src="upload.png" class="arrow"></a>
+                    <ul class="dropdown">
+                        <li><a href="#"><p class="lielement">Management tools</p></a></li>
+                        <li><a href="#"><p class="lielement">Tracking</p></a></li>
+                        <li><a href="#"><p class="lielement">Crypto</p></a></li>
+                        <li><a href="#"><p class="lielement">Integrations</p></a></li>
+                        <li><a href="#"><p class="lielement">Automations & workflow</p></a></li>
+                        <li><a href="#"><p class="lielement">Security & compliance</p></a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-dropdown">
+                    <a href="#"><img src="dashboards.png" class="icon">Elements <img src="upload.png" class="arrow"></a>
+                    <ul class="dropdown">
+                        <li><a href="#"><p class="lielement">Reports</p></a></li>
+                        <li><a href="#"><p class="lielement">Widgets</p></a></li>
+                        <li><a href="#"><p class="lielement">Charts</p></a></li>
+                        <li><a href="#"><p class="lielement">Forms</p></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>Welcome</h1>
+                <img src="user.png" class="user"><br>
+                <h1>Username</h1><br>
+            </header>
+            <section class="content">
+                <h2>Active users</h2>
+                <p>Paragraph tag to blabber something about active users tag</p>
+                <div class="alert">Some Alert message for the dashboard owner</div>
+                <table class="user-table">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!--data aayega-->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
